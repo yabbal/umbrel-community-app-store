@@ -1,0 +1,16 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: yabbal-flaresolverr_server_1
+      APP_PORT: 8191
+      PROXY_AUTH_ADD: "false"
+
+  server:
+    image: ghcr.io/flaresolverr/flaresolverr:v3.3.19
+    environment:
+      - LOG_LEVEL=${LOG_LEVEL:-info}
+      - LOG_HTML=${LOG_HTML:-false}
+      - CAPTCHA_SOLVER=${CAPTCHA_SOLVER:-none}
+      - TZ=Europe/London

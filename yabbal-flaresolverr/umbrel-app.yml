@@ -1,0 +1,23 @@
+manifestVersion: 1
+id: yabbal-flaresolverr
+name: FlareSolverr
+category: media
+version: "3.3.19"
+tagline: Proxy server to bypass Cloudflare protection
+icon: https://avatars.githubusercontent.com/u/75936191
+description: >
+  FlareSolverr is a proxy server to bypass Cloudflare and DDoS-GUARD protection.
+developer: FlareSolverr
+website: https://github.com/FlareSolverr/FlareSolverr/
+dependencies: []
+repo: https://github.com/FlareSolverr/FlareSolverr/
+support: https://github.com/FlareSolverr/FlareSolverr/
+port: 8191
+gallery:
+  - https://opengraph.githubassets.com/f0b97be90da20d7384c563d2f546d81bb39e98f903481e832b5ab8a4af1afbee/FlareSolverr/FlareSolverr
+path: ""
+releaseNotes: >
+  The full release notes are available at https://github.com/FlareSolverr/FlareSolverr/releases.
+torOnly: false
+submitter: yabbal
+submission:
